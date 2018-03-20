@@ -1,0 +1,22 @@
+body {
+    background-image: url('../images/crystalbg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Amita', cursive;
+}
+
+.jumbotron {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.panel-heading {
+    background-color: rgb(236, 193, 74);
+    text-align: center;
+}
+
+#panelStyle{
+	float:left;
+	margin: 10px 20px 10px 0px;
+}
+
+
