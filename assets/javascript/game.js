@@ -2,7 +2,7 @@ window.onload = function() {
  
  //Setting up random number for user
  $(document).ready(function () {
-    var crysCol = Math.floor(Math.random() * 50 + 10)
+    var crysCol = Math.floor(Math.random() * 101 + 19)
     console.log(crysCol);
     $('#number').text(crysCol);
 
@@ -20,7 +20,7 @@ window.onload = function() {
 
     function crystalCollector() {
         for (var i = 0; i < 4; i++) {
-            var num = Math.floor(Math.random() * 10 + 5);
+            var num = Math.floor(Math.random() * 11 + 1);
             randNumbers.push(num);
         }
         console.log(randNumbers)
@@ -31,7 +31,7 @@ window.onload = function() {
     //Reset the game
 
     function reset() {
-        crysCol = Math.floor(Math.random() * 50 + 10)
+        crysCol = Math.floor(Math.random() * 101 + 19)
         console.log(crysCol);
         $('#number').text(crysCol);
         randNumbers = [];
