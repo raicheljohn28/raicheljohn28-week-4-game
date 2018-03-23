@@ -15,6 +15,10 @@ window.onload = function() {
     var lose = 0;
     $('#numWins').text(wins);
     $('#numLose').text(lose);
+  
+  var audio = new Audio("assets/music/Bgnd.mp3");
+        audio.loop = true;
+        audio.play();
 
     //Random number for crystals
 
