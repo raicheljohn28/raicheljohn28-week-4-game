@@ -26,10 +26,19 @@ body {
     font-size: 25px;
     font-weight: bold;
     color: rgb(250, 151, 2);
+<<<<<<< HEAD
+}
+
+.panel-body {
+    background-color: rgb(213, 238, 238);
+=======
+>>>>>>> 13eae265ee4fb08a06feffce0d160234b9035bb1
 }
 
 .panel-body {
     background-color: rgb(213, 238, 238);
 }
+
+
 
 
